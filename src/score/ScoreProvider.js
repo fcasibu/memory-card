@@ -14,7 +14,7 @@ function ScoreProvider({ children }) {
 
   useEffect(() => {
     setEnd(false);
-    if (score >= bestScore && score > 0) {
+    if (score > bestScore && score > 0) {
       setBestScore(bestScore + 1);
       localStorage.setItem("best score", bestScore + 1);
     }
