@@ -1,4 +1,4 @@
-# cv-application
+# memory-card
 
 Memory Card project for The Odin Project. Made with React.
 
